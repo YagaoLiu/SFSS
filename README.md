@@ -25,6 +25,9 @@ Run `make` to compile.
   `k` is the forbidden length.
 
   `Output` is the file name for the output
+  
+An example:
+`./sfss_int.o 4 Text.txt 1 pattern.txt 2 3 res.txt`
 
 
 ## LIS ##
