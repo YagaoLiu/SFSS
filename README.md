@@ -28,4 +28,4 @@ Run `make` to compile.
 
 
 ## LIS ##
-In the folder LIS it is a R implementation for the distance matrix based on LIS distance.
+In the folder LIS it is an R implementation for the distance matrix based on LIS distance.
