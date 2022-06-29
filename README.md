@@ -19,3 +19,7 @@ Sen should be the file name of the sensitive patterns. Each line is a patterns a
 m should be an integer presenting the number of sensitive patterns.
 k is the forbidden length.
 Output is the file name for the output
+
+
+## LIS ##
+In the folder LIS it is a R implementation for the distance matrix based on LIS distance.
