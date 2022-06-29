@@ -16,11 +16,11 @@ Run `make` to compile.
 
   `Data` should be the file name of the set of strings. In the file, each line is a string and each character is an integer and separated with space.
 
-  `n` should be an integer presenting the number of strings in the Dataset.
+  `n` should be an integer representing the number of strings in the Dataset.
 
   `Sen` should be the file name of the sensitive patterns. Each line is a patterns and each character is an integer and separated with space.
 
-  `m` should be an integer presenting the number of sensitive patterns.
+  `m` should be an integer representing the number of sensitive patterns.
 
   `k` is the forbidden length.
 
