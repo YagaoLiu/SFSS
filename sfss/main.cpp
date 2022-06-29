@@ -77,7 +77,7 @@ int main(int argc, char* argv[]){
 	ofstream ssfs_results;
 	ofstream time_record;
 	int occ = 0;
-	time_record.open("sut_time.txt", std::ios::app);
+	time_record.open("sut_time.txt");
 	ssfs_results.open(argv[7]);
 	for(int i = 0; i < N; i++){
 		int n = S[i].size();
