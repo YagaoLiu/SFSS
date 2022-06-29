@@ -88,13 +88,10 @@ bool SSFS::BFS(vector<int> &prefix, vector<int> &suffix, vector<int>& replace){
 	BFT();
 	visited.clear();
 	vector<vector<int>> danger;
-//	int check[] = {16,33,16,29,1,31,19};
-//	vector<int> checkp(check, check+sizeof(check)/sizeof(int));
-//	bool flag = false;
 	for(int i = 0; i < m; i++){
 		int k = border(suffix, M[i]);
 		if(k>0){
-			vector<int> tmp(M[i].begin(), M[i].begin()+M[i].size()-k-1);
+			vector<int> tmp(M[i].begin(), M[i].begin()+M[i].size()-k);
 			danger.push_back(tmp);
 		}
 	}

@@ -106,10 +106,6 @@ int main(int argc, char* argv[]){
 				int hash = alphabet_size+50;
 				int l = sut( S[i], C, k, hash, y);
 				y.erase(remove(y.begin(), y.end(), 0),y.end());
-				for(auto it = 0; it < y.size(); it++){
-					cout << y[it] << " ";
-				}
-				cout << endl;
 				vector<int> s(y);
 				vector<int>::iterator found;
 				found = find(s.begin(), s.end(), hash);
@@ -129,19 +125,6 @@ int main(int argc, char* argv[]){
 							s.erase(found);
 							s.insert(found, replace.begin(), replace.end());
 						}
-						for(auto it = prefix.begin(); it != prefix.end(); it++){
-							cout << *it << " ";
-						}
-						cout << endl;
-						
-						for(auto it = suffix.begin(); it != suffix.end(); it++){
-							cout << *it << " ";
-						}
-						cout << endl;
-						for(auto it = replace.begin(); it != replace.end(); it++){
-							cout << *it << " ";
-						}
-						cout << endl;
 
 						found = find(s.begin()+location, s.end(),hash);
 					}
